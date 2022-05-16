@@ -2,11 +2,11 @@
 
 # Introduction
 
-A online image application which showcases most beautiful view of different US states.
+An online image application which showcases most beautiful view of different US states.
 
-1. Designed a full stack application for 20k users with React, SpringBoot and AWS S3
+1. Designed a full stack application for 20k users with React, SpringBoot and AWS
 
-2. Build the client side with React to allow users upload image
+2. Build the client side with React to allow users to upload image
 
 3. Leveraged SpringBoot to build the backend of the whole application
 
