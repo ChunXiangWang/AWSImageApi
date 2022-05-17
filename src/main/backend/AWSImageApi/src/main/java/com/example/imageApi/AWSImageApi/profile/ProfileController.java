@@ -26,14 +26,14 @@ public class ProfileController {
     }
 
     @PostMapping(
-            path = "{id}/image/upload",
+            path = "image/upload/{id}",
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE)
     public void uploadProfileImage(@PathVariable("id")UUID id, @RequestParam("file")MultipartFile file){
     profileService.uploadProfileImage(id,file);
     }
 
-    @GetMapping("{id}/image/download")
+    @GetMapping("image/download/{id}")
     public byte[] downloadUserProfileImage(@PathVariable("id")UUID id){
     return profileService.downloadUserProfileImage(id);
     }
