@@ -4,7 +4,7 @@
 
 An online image application which showcases most beautiful view of different US states.
 
-1. Launched a full stack application for 20k users with React, SpringBoot and AWS
+1. Launched a full stack application for 2k users with React, SpringBoot and AWS
 
 2. Build the Restful Api with React to allow users to upload image
 
